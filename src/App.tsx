@@ -1,14 +1,16 @@
 import React from "react";
 
 import "./App.css";
+import Banner from "./components/banner";
+import CriptoContainer from "./components/cripto-container";
+import Header from "./components/header";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-
-
-      </header>
+      <Header/>
+      <Banner />
+      <CriptoContainer/>
     </div>
   );
 }
