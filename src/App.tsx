@@ -2,15 +2,15 @@ import React from "react";
 
 import "./App.css";
 import Banner from "./components/banner";
-import CriptoContainer from "./components/cripto-container";
+import Container from "./components/container";
 import Header from "./components/header";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
       <Banner />
-      <CriptoContainer/>
+      <Container />
     </div>
   );
 }
